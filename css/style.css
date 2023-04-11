@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: aquamarine;
+    height: 120px;
+
+}
+
+
+#topo {
+    max-height: 70px;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    margin-left: 15%;
+}
+
+#sub {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+#cep {
+    background-color: aquamarine;
+    border: none;
+}
+
+#search {
+    width: 40%;
+    height: 2rem;
+    align-items: center;
+    border-radius: 2px;
+    border-color: aquamarine;
+}
+
+#btn {
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 30px;
+
+}
+
+#usr{
+    margin-left: 20%;
+}
+
+.usuario {
+    width: 4rem;
+    border-radius: 100px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
