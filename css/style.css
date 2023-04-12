@@ -5,55 +5,75 @@
 
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(130, 130, 130);
     height: 120px;
 
 }
 
 
-#topo {
+#containerTopo {
     max-height: 70px;
-    max-width: 70%;
+    max-width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
-    margin-left: 15%;
+    background-color: rgb(130, 130, 130);
+    margin-left: 10vh;
+} 
+
+.logo {
+    width: 200px;
 }
 
-#sub {
+#containerPesquisa {
+    display: flex;
+}
+
+#containerMenuCar {
+    height: 3.5rem;
+    border: none;
+    background-color: rgb(91, 91, 247);
+}
+
+.search {
+    width: 55rem;
+    height: 3.5rem;
+    border-radius: 2px;
+    border: none;
+}
+
+.buttonsrc {
+    padding: 0.81rem;
+    background-color: rgb(91, 91, 247);
+    border-radius: 2px;
+    border: none;
+}
+
+#containerUsr{
+    display: flex;
+    align-items: center;
+    background-color: rgb(151, 205, 252);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.usuario {
+    width: 3.3rem;
+    border-radius: 100px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+#containerSub {
     max-width: 70%;
     margin-left: 15%;
     margin-top: 10px;
 }
 
-#cep {
-    background-color: aquamarine;
+#containerCep {
+    background-color: rgb(130, 130, 130);
     border: none;
+    
 }
 
-#search {
-    width: 40%;
-    height: 2rem;
-    align-items: center;
-    border-radius: 2px;
-    border-color: aquamarine;
-}
-
-#btn {
-    padding: 10px;
-    background-color: aquamarine;
-    border-radius: 30px;
-
-}
-
-#usr{
-    margin-left: 20%;
-}
-
-.usuario {
-    width: 4rem;
-    border-radius: 100px;
-    margin-right: 4px;
-    margin-top: 4px;
-}
